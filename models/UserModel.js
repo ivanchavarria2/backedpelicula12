@@ -1,4 +1,5 @@
-import { DataTypes } from "sequelize";
+import pkg from 'sequelize';
+const { DataTypes } = pkg;
 import { sequelize } from "../db/conexion.js";
 //import  sequelize  from "../db/conexion.js";
 import { TypeUsersModel } from "./TypeUsersModel.js";
